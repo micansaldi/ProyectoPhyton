@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cataratas del Iguazú</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="shortcut icon" href="./img/LOGO NUEVO-01.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://kit.fontawesome.com/acfa384147.js" crossorigin="anonymous"></script>
+    <link rel="icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+</head>
+
+<body class="pagina-contacto">
+
+    <header>
+
+
+    </header>
+    <div class="display-titulo">
+    <h2 class="titulo-contacto">FORMULARIO DE CONTACTO</h2>
+    </div>
+
+    <p class="texto-contacto">
+        Estamos a la espera de tu consulta.
+        <br>
+        Completa el siguiente formulario y en breve estaremos en contacto
+    </p>
+
+    <div class="formulario-contacto">
+        <style>
+            .formulario-contacto {
+                background-image: url("./img/cataratas.jpg");
+            }
+        </style>
+        <form id="form">
+            <div class="row">
+                <div class="col-25">
+                    <label for="nombre">Nombre</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre aqui...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="apellido">Apellido</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido aqui...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">Email</label>
+                </div>
+                <div class="col-75">
+                    <input type="email" id="email" name="email" placeholder="Escribe tu email aqui...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="pais">País:</label>
+                </div>
+                <div class="col-75">
+                    <select id="pais" name="pais" required>
+                        <option value="" disabled selected>Selecciona tu país</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="consulta">Consulta</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="consulta" name="consulta" placeholder=".........." style="height:150px"></textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <input type="checkbox" id="checkbox" name="checkbox" value="si">
+                <label for="checkbox" style="color:#6a1e1e; font-weight: bold;"> Acepto recibir promociones y ofertas especiales</label>
+            </div>
+            
+            <div class="row">
+                <label for="archivo" style="color:#6a1e1e; font-style: italic;  font-weight: bold;">Si desea enviar sugerencias o reclamos sobre el parque, puede
+                    adjuntar una foto que ilustre su comentario:</label><br>
+                    <label class="custom-file-upload">
+                        <input type="file" id="archivo" name="archivo" accept="image/*">
+                        Seleccionar archivo
+                    </label>
+                </div>
+                <span id="file-name"></span>
+
+            <br>
+            <div class="row">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+        <!-- Mensaje enviado -->
+        <div id="mensajeEnviado" style="display: none; font-weight: bold; color: #000;">Mensaje enviado!</div>
+    </div>
+    <br>
+    <br>
+
+
+    <footer>
+
+    </footer>
+    <script src="./js/contacto.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+
+</html>
