@@ -1,0 +1,42 @@
+[
+    {
+        "imagen": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/ea/b6/4d.jpg",
+        "titulo": "Full Day Cataratas Ambos lados - Brasil y Argentina",
+        "duracion": "8 horas",
+        "precio": "$95.202,46",
+        "descripcion": "Visita ambos lados de las Cataratas del Iguazú, una de las Maravillas Naturales del Mundo, en un tour en grupos pequeños. Cruzar la frontera con Argentina y acercarse a las poderosas aguas en la Garganta del Diablo, así como a los circuitos superiores e inferiores. Luego regrese al lado brasileño, que es más indómito y cuenta con más vida silvestre, como por ejemplo, simpáticos amigos y aves tropicales."
+    },
+
+    {
+        "imagen": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/95/bf/ed.jpg",
+        "titulo": "Paseo en barco, tren, camión de safari",
+        "duracion": "De 9 a 10 horas",
+        "precio": "$134.190,14",
+        "descripcion": "Pase el día explorando el lado argentino de las cataratas del Iguazú, incluido un paseo en barco de aventura. Realice un trayecto en camión y otro en tren por la selva subtropical y conozca la zona a través de la narración de su guía. Traslado de ida y vuelta al hotel desde el lado argentino (Puerto Iguazú) incluido."
+    },
+
+    {
+        "imagen": "https://media.tacdn.com/media/attractions-splice-spp-674x446/09/a9/c3/8c.jpg",
+        "titulo": "Vuelo panorámico en helicóptero sobre las cataratas del Iguazú",
+        "duracion": "10 minutos",
+        "precio": "$141.291,89",
+        "descripcion": "Experimente vistas inigualables de las cataratas del Iguazú, una de las 7 nuevas maravillas de la naturaleza, durante un paseo panorámico en helicóptero que revela los lados argentino y brasileño de las cataratas. Puede elegir una hora de despegue que se adapte a su horario, antes de volar y beneficiarse de los comentarios del piloto para orientarlo y llamar su atención sobre los principales lugares de interés."
+    },
+
+    {
+        "imagen": "https://media.tacdn.com/media/attractions-splice-spp-674x446/10/7e/50/65.jpg",
+        "titulo": "Tour Completo a Cataratas del Iguazú Argentinas + Selva en 4x4",
+        "duracion": "De 10 a 11 horas",
+        "precio": "$72.535,21",
+        "descripcion": "Del lado argentino se podrá caminar, literalmente, sobre las mismísimas cataratas.. “La Gran Aventura” es una excursión que no puede faltarte en tu próxima visita a Puerto Iguazú. Conocido como el “Bautismo de las Cataratas”; este tour combina la adrenalina de estar a tan solo metros de distancia de los saltos, con un recorrido selvático en 4x4 y gomon inflable. Sin dudas, una experiencia que no olvidaras jamas!!"
+    },
+
+
+    {
+        "imagen": "https://media.tacdn.com/media/attractions-splice-spp-674x446/12/64/e8/d6.jpg",
+        "titulo": "Experiencia Argentina: Cena Inmersiva y Maridaje de Vinos en Iguazú",
+        "duracion": "3 horas",
+        "precio": "$54.401,41",
+        "descripcion": "La experiencia de degustación presenta platos queridos como empanadas, chorizo, matambre, queso provoleta asado, bistec y más, cuidadosamente combinados con tres selecciones distintas de vinos. Terminamos la velada explicando las complejidades de la yerba mate, una bebida tradicional de té caliente llena de ritual, etiqueta e historia, complementada con alfajores caseros."
+    }
+]

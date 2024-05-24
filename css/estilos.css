@@ -1,0 +1,873 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* para dispositovs moviles*/
+@media screen and (max-width: 768px) {
+   
+    .formulario-contacto .col-25,
+    .formulario-contacto .col-75,
+    .formulario-contacto input[type=submit] #container {
+        width: 100%;
+        margin-top: 0;
+    }
+   
+  
+
+
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    /*a todas las clases que comiencen con col- ponele 100%*/
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+
+    /* entonces >= 600px  */
+    /* For tablets: */
+    .col-s-1 {
+        width: 8.33%;
+    }
+
+    /* 100/12  */
+    .col-s-2 {
+        width: 16.66%;
+    }
+
+    /* 100/12*2  */
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.33%;
+    }
+
+    .col-s-5 {
+        width: 41.66%;
+    }
+
+    .col-s-6 {
+        width: 50%;
+    }
+
+    .col-s-7 {
+        width: 58.33%;
+    }
+
+    .col-s-8 {
+        width: 66.66%;
+    }
+
+    .col-s-9 {
+        width: 75%;
+    }
+
+    .col-s-10 {
+        width: 83.33%;
+    }
+
+    .col-s-11 {
+        width: 91.66%;
+    }
+
+    .col-s-12 {
+        width: 100%;
+    }
+
+    /*  100/12*12  */
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* entonces >=   */
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    /*  100/12  */
+    .col-2 {
+        width: 16.66%;
+    }
+
+    /* 100/2*2  */
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+/*@media only screen and (min-width: 768px) and (max-width:1023px) {
+
+    /* Para tablet: 
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }*/
+
+
+
+/*@media screen and (min-width: 1023px) {
+
+    /* Para computadora de escritorio: */
+
+
+/* .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }*/
+
+
+
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 3%;
+}
+
+h2 {
+    font-size: 30px;
+
+    text-align: center;
+    background-color: transparent;
+    padding: 1%;
+}
+
+.botonContacto {
+    background-color: transparent;
+    border: 3px solid white;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+a {
+    padding: 10px;
+}
+
+/*#banner a {
+    color: white;
+    text-decoration: none;
+
+}*/
+
+.redes {
+    background-image: none;
+    background-color: #62A6E7;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.redes a {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    text-decoration: none;
+
+}
+
+.redes a:hover {
+    color: #2B4015;
+
+}
+
+header {
+    background-color: #88B4E5;
+    text-align: center;
+}
+
+/*.botonDescubrila {
+    background-color: #2B4015;
+    padding: 10px;
+    margin: 100px;
+    display: inline-block;
+}*/
+
+footer {
+    background-color: #88B4E5;
+    text-align: center;
+
+}
+
+/*CONTACTO.HTML*/
+.pagina-contacto body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color:  rgb(218, 216, 157);
+   
+}
+
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #62A6E7;
+    display: block;
+    padding: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.display-titulo {
+    text-align: center;
+}
+
+.titulo-contacto {
+    background-color: #2B4015;
+    display: inline-block;
+    text-align: center;
+    padding: 2%;
+    margin: 20px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+
+.texto-contacto {
+    text-align: center;
+    color: #2B4015;
+    background-color:  rgb(218, 216, 157);
+    display: block;
+    padding: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: normal;
+}
+
+.formulario-contacto {
+    background-image: url("/ProyectoPython/img/cataratas.jpg");
+    opacity: 0.9;
+    background-color: rgba(255, 255, 255, 0.2);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black;
+    
+
+
+}
+
+.formulario-contacto .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.formulario-contacto .col-25 {
+    flex: 25%;
+    margin-right: 10px;
+
+}
+
+.formulario-contacto .col-75 {
+    flex: 75%;
+}
+
+.formulario-contacto input[type=text],
+.formulario-contacto input[type=email],
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    color: black;
+}
+
+.formulario-contacto input[type=submit] {
+    background-color: #2B4015;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.formulario-contacto input[type=submit]:hover {
+    background-color: rgb(218, 216, 157);
+    color:black;
+}
+
+.formulario-contacto select {
+    color: black;
+    background-color: #eef1f4;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formulario-contacto option {
+    color: black;
+}
+
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color:#2B4015;
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 16px;
+}
+
+.custom-file-upload:hover {
+    background-color: rgb(218, 216, 157);
+    color:black;
+}
+
+#archivo {
+    display: none;
+}
+
+#file-name {
+    display: block;
+    margin-top: 10px;
+    color:black;
+        
+}
+
+
+
+
+/*TARIFAS.HTML*/
+.pagina-tarifas {
+    background-color:rgb(218, 216, 157);
+}
+
+.tarifasyhorarios {
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+    display: grid;
+    gap: 1.6em;
+    grid-template-columns: repeat(3, 1fr);
+    background-color:rgb(218, 216, 157);
+
+}
+
+.tarifasyhorarios>.header2,
+.tarifasyhorarios>.contenido,
+.tarifasyhorarios>.sidebar,
+.tarifasyhorarios>.articulo,
+.tarifasyhorarios>.table-container {
+    background-color:#2B4015;
+    padding: 20px;
+    border: 1px solid white;
+}
+
+.tarifasyhorarios>.header2 {
+    color: white;
+    grid-column: 1/4;
+}
+
+.tarifasyhorarios>.contenido  {
+    grid-column: span 2;
+  
+}
+
+.contenido>.table-container,
+.contenido>.articulo {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.tarifasyhorarios>.sidebar {
+    grid-column: span 1;
+}
+
+/*TABLA y ARTICULO*/
+
+.table-container table {
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+}
+
+.table-container table th {
+    font-weight: bold;
+    color: rgb(218, 216, 157);
+}
+
+.table-container table td,
+.table-container table th {
+    padding: 5px;
+}
+
+.contenido h3,
+.articulo h3 {
+    font-weight: bold;
+    text-align: center;
+    color: rgb(218, 216, 157);
+}
+
+.table-container table th:first-child,
+.table-container table td:first-child {
+    width: 80%;
+}
+
+.table-container table th:last-child,
+.table-container table td:last-child {
+    width: 20%;
+}
+
+.sidebar div {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sidebar h4 {
+    color: rgb(218, 216, 157);
+    font-weight: bold;
+    text-align: center;
+}
+
+.sidebar p {
+    color: rgb(218, 216, 157);
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+/*FIN PAGINA TARIFAS*/
+
+/* PAGINA INTERÉS */
+
+.titulos {
+    color: #ffffff;
+    background-color: #2B4015;
+}
+
+#contenedor {
+    background-color: #DAD89D;
+
+
+}
+
+.cont2 {
+    display: flex;
+    align-items: center;
+    background-color: #2b401521;
+    border-radius: 50px;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-shadow: #2B4015;
+}
+
+.cont1 {
+    display: flex;
+    align-items: center;
+    background-color: #2b401521;
+    border-radius: 50px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.cont3 {
+    display: flex;
+    align-items: center;
+    background-color: #2b401521;
+    border-radius: 50px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+
+.cont4 {
+    display: flex;
+    align-items: center;
+    background-color: #2b401521;
+    border-radius: 50px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.cont5 {
+    display: flex;
+    align-items: center;
+    background-color: #2b401521;
+    border-radius: 50px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+
+.cont6 {
+    display: flex;
+    align-items: center;
+    background-color: #2b401521;
+    border-radius: 50px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.cont7 {
+    display: flex;
+    align-items: center;
+    background-color: #2b401521;
+    border-radius: 50px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.pp {
+    color: #2B4015;
+    text-align: justify;
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.texto {
+    color: #2B4015;
+    margin: 2%;
+    text-align: justify;
+
+}
+
+.imagenint {
+
+    width: 40%;
+    height: 30%;
+    margin: 2%;
+    border-radius: 8%;
+    cursor: pointer;
+    transition: 1.5s;
+
+}
+
+.imagenint:hover {
+    transform: scale(1.05);
+    transition: 1.5s;
+}
+
+/* FIN PÁGINA INTERÉS */
+
+
+/* INDEX */
+
+#banner {
+    background-color: #cccccc;
+    background-image: url("/ProyectoPython/img/cataratas-del-iguazu-lado-argent.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*height: 1200px;*/
+    position: relative;
+    text-align: center;
+    /* Centra horizontalmente los elementos dentro de #banner */
+}
+
+
+
+#container {
+    background-color: #dad89dab;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: auto;
+    margin: 5%;
+    align-items: center;
+
+}
+
+.tarjeta {
+    width: 500px;
+    padding: 15px;
+    float: left;
+}
+
+
+.tarjeta img {
+    width: 100%;
+    border-radius: 25px;
+    padding: 15px;
+
+}
+
+.tarjeta img:hover {
+    transform: scale(1.1);
+
+}
+
+.tarjeta a {
+    color: #2B4015;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+footer a:hover {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: animate__pulse;
+    animation-duration: 2s;
+}
+
+nav a img {
+    width: 20px;
+    margin: 5px;
+    vertical-align: middle;
+
+}
+
+header nav a:hover {
+    color: #2B4015;
+    font-weight: bold;
+}
+
+.botonContacto:hover {
+    border-color: #2B4015;
+
+}
+
+.mapa {
+    text-align: center;
+    background-color: #45a049;
+    font-size: large;
+    display: inline-block;
+    /*flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;*/
+    padding: 10px;
+    margin: 30px;
+}
+
+.mapa a:hover {
+    color: #2B4015;
+
+}
+
+.parrafoExcursiones {
+    background-color: #2b401521;
+    color: #2B4015;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 50px;
+    text-align: center;
+    border: #2B4015 1px solid;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+}
+
+.imgExcursiones {
+    /* width: 300;
+    padding: 30px;*/
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    float: left;
+    margin: 25px;
+}
+
+#app {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #DAD89D;
+
+}
+
+.tituloExcursiones {
+    background-color: #2B4015;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+
+
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-color: #62A6E7;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: normal;
+    align-items: center;
+
+}
+
+
+.logo img:hover {
+    transform: scale(1.1);
+
+}
+
+
+.linksNav {
+    float: right;
+
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+    vertical-align: middle;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
