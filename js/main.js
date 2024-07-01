@@ -1,7 +1,7 @@
 document.querySelector("header").innerHTML=`
 <nav>
 <div class="logo">
-<a href ="index.html"><img src="./img/LOGO NUEVO-01.png" alt=""></a>
+<a href ="index.html"><img src="./img/logo1.png" alt=""></a>
 </div>
 <div class="linksNav">
 <a href="excursiones.html">Excursiones</a>

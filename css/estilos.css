@@ -9,42 +9,85 @@
     font-weight: 400;
     font-style: normal;
 }
-
-/* para dispositovs moviles*/
-@media screen and (max-width: 768px) {
-   
+/* Para dispositivos móviles */
+@media screen and (max-width: 767px) {
     .formulario-contacto .col-25,
     .formulario-contacto .col-75,
     .formulario-contacto input[type=submit] #container {
         width: 100%;
         margin-top: 0;
     }
+    
+    #contenedor,
+    .cont1, .cont2, .cont3, .cont4, .cont5, .cont6, .cont7 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        max-width: 100%;
+        
+    }
+
+    #app {
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    .imgExcursiones,
+    .imagenint {
+        width: 90%;
+        height: auto;
+        margin: 10px 0;
+        border-radius: 0;
+        padding: 0;
+       
+    }
+
+    .parrafoExcursiones,
+    .texto {
+        margin: 2% 1%;
+    }
+
+    
    
-  
-
-
 }
 
-/* For mobile phones: */
-[class*="col-"] {
-    /*a todas las clases que comiencen con col- ponele 100%*/
-    width: 100%;
-}
 
-@media only screen and (min-width: 600px) {
+    
+   
 
-    /* entonces >= 600px  */
-    /* For tablets: */
+
+/* Para dispositivos tipo tablet (de 768px a 1024px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #app,
+    .cont1, .cont2, .cont3, .cont4, .cont5, .cont6, .cont7 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgExcursiones,
+    .imagenint {
+        max-width: 80%;
+        height: auto;
+        margin: 1%;
+        border-radius: 8%;
+    }
+
+    .parrafoExcursiones,
+    .texto {
+        margin: 2% 1%;
+    }
+
+        
+
     .col-s-1 {
         width: 8.33%;
     }
 
-    /* 100/12  */
     .col-s-2 {
         width: 16.66%;
     }
 
-    /* 100/12*2  */
     .col-s-3 {
         width: 25%;
     }
@@ -84,68 +127,21 @@
     .col-s-12 {
         width: 100%;
     }
-
-    /*  100/12*12  */
 }
 
-@media only screen and (min-width: 768px) {
+/* Para computadoras de escritorio */
+@media screen and (min-width: 1025px) {
 
-    /* entonces >=   */
-    /* For desktop: */
-    .col-1 {
-        width: 8.33%;
+    .imgExcursiones {
+        max-width: 90%;
+        height: auto;
+        border-radius: 15px;
+        float:left;
+        margin: 25px;
+       
+      
     }
-
-    /*  100/12  */
-    .col-2 {
-        width: 16.66%;
-    }
-
-    /* 100/2*2  */
-    .col-3 {
-        width: 25%;
-    }
-
-    .col-4 {
-        width: 33.33%;
-    }
-
-    .col-5 {
-        width: 41.66%;
-    }
-
-    .col-6 {
-        width: 50%;
-    }
-
-    .col-7 {
-        width: 58.33%;
-    }
-
-    .col-8 {
-        width: 66.66%;
-    }
-
-    .col-9 {
-        width: 75%;
-    }
-
-    .col-10 {
-        width: 83.33%;
-    }
-
-    .col-11 {
-        width: 91.66%;
-    }
-
-    .col-12 {
-        width: 100%;
-    }
-}
-
-/*@media only screen and (min-width: 768px) and (max-width:1023px) {
-
-    /* Para tablet: 
+   
     .col-1 {
         width: 8.33%;
     }
@@ -192,62 +188,8 @@
 
     .col-12 {
         width: 100%;
-    }*/
-
-
-
-/*@media screen and (min-width: 1023px) {
-
-    /* Para computadora de escritorio: */
-
-
-/* .col-1 {
-        width: 8.33%;
     }
-
-    .col-2 {
-        width: 16.66%;
-    }
-
-    .col-3 {
-        width: 25%;
-    }
-
-    .col-4 {
-        width: 33.33%;
-    }
-
-    .col-5 {
-        width: 41.66%;
-    }
-
-    .col-6 {
-        width: 50%;
-    }
-
-    .col-7 {
-        width: 58.33%;
-    }
-
-    .col-8 {
-        width: 66.66%;
-    }
-
-    .col-9 {
-        width: 75%;
-    }
-
-    .col-10 {
-        width: 83.33%;
-    }
-
-    .col-11 {
-        width: 91.66%;
-    }
-
-    .col-12 {
-        width: 100%;
-    }*/
+}
 
 
 
@@ -259,8 +201,8 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
-
+    font-size: 35px;
+    text-shadow: -2px -2px 1px #313030;
     text-align: center;
     background-color: transparent;
     padding: 1%;
@@ -286,7 +228,7 @@ a {
 
 .redes {
     background-image: none;
-    background-color: #62A6E7;
+    background-color: #2B4015;
     display: flex;
     justify-content: center;
     padding: 20px 0;
@@ -309,7 +251,7 @@ a {
 }
 
 header {
-    background-color: #88B4E5;
+    background-color: #2B4015;
     text-align: center;
 }
 
@@ -321,7 +263,7 @@ header {
 }*/
 
 footer {
-    background-color: #88B4E5;
+    background-color: #2B4015;
     text-align: center;
 
 }
@@ -332,15 +274,15 @@ html {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color:  rgb(218, 216, 157);
-   
+    background-color: rgb(218, 216, 157);
+
 }
 
 
 footer {
     text-align: center;
     color: white;
-    background-color: #62A6E7;
+    background-color: #2B4015;
     display: block;
     padding: 30px;
     font-weight: bold;
@@ -349,6 +291,7 @@ footer {
     font-weight: 400;
     font-style: normal;
 }
+
 .display-titulo {
     text-align: center;
 }
@@ -367,7 +310,7 @@ footer {
 .texto-contacto {
     text-align: center;
     color: #2B4015;
-    background-color:  rgb(218, 216, 157);
+    background-color: rgb(218, 216, 157);
     display: block;
     padding: 6px;
     font-weight: 600;
@@ -378,16 +321,14 @@ footer {
 }
 
 .formulario-contacto {
-    background-image: url("/ProyectoPython/img/cataratas.jpg");
-    opacity: 0.9;
+    opacity: 3;
     background-color: rgba(255, 255, 255, 0.2);
-    max-width: 600px;
+    max-width: 550px;
     margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     color: black;
-    
+
 
 
 }
@@ -431,7 +372,7 @@ footer {
 
 .formulario-contacto input[type=submit]:hover {
     background-color: rgb(218, 216, 157);
-    color:black;
+    color: black;
 }
 
 .formulario-contacto select {
@@ -452,7 +393,7 @@ footer {
     display: inline-block;
     padding: 10px 20px;
     cursor: pointer;
-    background-color:#2B4015;
+    background-color: #2B4015;
     border-radius: 5px;
     border: 1px solid;
     font-size: 16px;
@@ -460,7 +401,7 @@ footer {
 
 .custom-file-upload:hover {
     background-color: rgb(218, 216, 157);
-    color:black;
+    color: black;
 }
 
 #archivo {
@@ -470,16 +411,13 @@ footer {
 #file-name {
     display: block;
     margin-top: 10px;
-    color:black;
-        
+    color: black;
+
 }
-
-
-
 
 /*TARIFAS.HTML*/
 .pagina-tarifas {
-    background-color:rgb(218, 216, 157);
+    background-color: rgb(218, 216, 157);
 }
 
 .tarifasyhorarios {
@@ -489,7 +427,7 @@ footer {
     display: grid;
     gap: 1.6em;
     grid-template-columns: repeat(3, 1fr);
-    background-color:rgb(218, 216, 157);
+    background-color: rgb(218, 216, 157);
 
 }
 
@@ -498,7 +436,7 @@ footer {
 .tarifasyhorarios>.sidebar,
 .tarifasyhorarios>.articulo,
 .tarifasyhorarios>.table-container {
-    background-color:#2B4015;
+    background-color: #2B4015;
     padding: 20px;
     border: 1px solid white;
 }
@@ -508,9 +446,9 @@ footer {
     grid-column: 1/4;
 }
 
-.tarifasyhorarios>.contenido  {
+.tarifasyhorarios>.contenido {
     grid-column: span 2;
-  
+
 }
 
 .contenido>.table-container,
@@ -577,6 +515,9 @@ footer {
 
 /*FIN PAGINA TARIFAS*/
 
+
+
+
 /* PAGINA INTERÉS */
 
 .titulos {
@@ -586,75 +527,30 @@ footer {
 
 #contenedor {
     background-color: #DAD89D;
-
-
+    
+   
 }
 
-.cont2 {
-    display: flex;
-    align-items: center;
-    background-color: #2b401521;
-    border-radius: 50px;
-    margin-left: 1%;
-    margin-right: 1%;
-    box-shadow: #2B4015;
-}
-
-.cont1 {
-    display: flex;
-    align-items: center;
-    background-color: #2b401521;
-    border-radius: 50px;
-    margin-left: 1%;
-    margin-right: 1%;
-}
-
-.cont3 {
-    display: flex;
-    align-items: center;
-    background-color: #2b401521;
-    border-radius: 50px;
-    margin-left: 1%;
-    margin-right: 1%;
-}
-
-
-.cont4 {
-    display: flex;
-    align-items: center;
-    background-color: #2b401521;
-    border-radius: 50px;
-    margin-left: 1%;
-    margin-right: 1%;
-}
-
-.cont5 {
-    display: flex;
-    align-items: center;
-    background-color: #2b401521;
-    border-radius: 50px;
-    margin-left: 1%;
-    margin-right: 1%;
-}
-
-
-.cont6 {
-    display: flex;
-    align-items: center;
-    background-color: #2b401521;
-    border-radius: 50px;
-    margin-left: 1%;
-    margin-right: 1%;
-}
-
+.cont1,
+.cont2,
+.cont3,
+.cont4,
+.cont5,
+.cont6,
 .cont7 {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: space-between;
     background-color: #2b401521;
     border-radius: 50px;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin: 1%;
+    padding: 10px;
+    box-sizing: border-box;
+    max-width: 100%;
+    
+    
 }
+
 
 .pp {
     color: #2B4015;
@@ -662,20 +558,25 @@ footer {
     padding: 1%;
     margin-left: 1%;
     margin-right: 1%;
+    line-height: 1,5em;
 }
 
 .texto {
     color: #2B4015;
     margin: 2%;
-    text-align: justify;
+    text-align:justify;
+    line-height: 2em;
+      
 
 }
 
-.imagenint {
 
-    width: 40%;
-    height: 30%;
-    margin: 2%;
+
+.imagenint {
+   
+    max-width: 600px;
+    height: auto;
+    margin: 25px;
     border-radius: 8%;
     cursor: pointer;
     transition: 1.5s;
@@ -760,7 +661,7 @@ nav a img {
 }
 
 header nav a:hover {
-    color: #2B4015;
+    color: #DAD89D;
     font-weight: bold;
 }
 
@@ -793,21 +694,24 @@ header nav a:hover {
     font-weight: 500;
     font-size: 20px;
     margin: 50px;
-    text-align: center;
+    text-align: justify;
     border: #2B4015 1px solid;
     border-radius: 5px;
     display: flex;
     padding: 10px;
+    
+    
 }
 
 .imgExcursiones {
     /* width: 300;
     padding: 30px;*/
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     border-radius: 15px;
-    float: left;
     margin: 25px;
+   
+  
 }
 
 #app {
@@ -816,7 +720,7 @@ header nav a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     background-color: #DAD89D;
 
 }
@@ -828,6 +732,7 @@ header nav a:hover {
     padding: 20px;
     margin: 20px;
     border-radius: 5px;
+    flex: 1 1 100%; 
 
 
 }
@@ -835,7 +740,7 @@ header nav a:hover {
 header {
     text-align: center;
     color: white;
-    background-color: #62A6E7;
+    background-color: #2B4015;
     display: block;
     padding: 15px;
     text-decoration: none;
@@ -870,4 +775,8 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.tituloppal {
+    text-shadow: -2px -2px 1px #000
 }
