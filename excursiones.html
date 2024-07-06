@@ -29,21 +29,20 @@
             <h2 class="tituloExcursiones">{{excursion.titulo}}</h2> <br>
             <img class="imgExcursiones" :src="excursion.imagen" :alt="excursion.imagen">
             <p class="parrafoExcursiones">Duración: {{excursion.duracion}}</p>
-            <p class="parrafoExcursiones">Precio: {{excursion.precio}}</p>
+            <p class="parrafoExcursiones">Precio: {{'$'+ excursion.precio}}</p>
             <p class="parrafoExcursiones">{{excursion.descripcion}}</p>
         </div>
     </div>
 
-   
-
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <script src="./js/excursiones.js"></script>
-
+      
     <footer>
 
     </footer>
 
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./js/excursiones.js"></script>
     <script src="./js/main.js"></script>
+    
 </body>
 
 </html>

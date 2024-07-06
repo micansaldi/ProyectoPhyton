@@ -210,7 +210,7 @@ h2 {
 
 .botonContacto {
     background-color: transparent;
-    border: 3px solid white;
+    /*border: 3px solid white;*/
     padding: 10px;
     margin: 10px;
     display: inline-block;
@@ -290,6 +290,7 @@ footer {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    
 }
 
 .display-titulo {
@@ -704,13 +705,11 @@ header nav a:hover {
 }
 
 .imgExcursiones {
-    /* width: 300;
-    padding: 30px;*/
-    max-width: 90%;
+    max-width: 50%;
     height: auto;
     border-radius: 15px;
-    margin: 25px;
-   
+    margin: 25px; 
+    object-fit: contain;
   
 }
 
@@ -779,4 +778,74 @@ nav {
 
 .tituloppal {
     text-shadow: -2px -2px 1px #000
+}
+
+/*EXCURSIONES CRUD*/
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #3E5B20; /* Color de fondo para las filas pares */
+}
+
+.table thead th {
+    background-color: #3E5B20; 
+}
+
+.display-crud{
+    text-align: center;
+    background-color: rgb(218, 216, 157)
+}
+.tituloCrud{
+background-color: #2B4015;
+display: inline-block;
+text-align: center;
+padding: 2%;
+margin: 10px;
+border-radius: 10px;
+font-weight: 600;
+}
+
+
+.form-control {
+    background-color: #fff; 
+    color: #2B4015; 
+    border-color: #2B4015; 
+    font-size: 16px; 
+    margin-bottom: 15px; 
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.form-label {
+    color: #2B4015; /* Color de las etiquetas */
+    font-size: 18px; 
+    margin-bottom: 10px; 
+    font-weight: bold;
+
+}
+#formulario-container {
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+/*LOGIN*/
+#app-login {
+    width: 90%;
+    max-width: 700px; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: rgb(218, 216, 157); 
+}
+
+.bg-color {
+    background-color: rgb(218, 216, 157); /* Color de fondo del contenedor exterior */
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #2B4015;
 }
