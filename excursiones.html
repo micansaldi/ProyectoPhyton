@@ -24,7 +24,7 @@
 
     </header>
 
-    <div id="formulario-container">
+    <div id="app">
         <div v-for="excursion in datos">
             <h2 class="tituloExcursiones">{{excursion.titulo}}</h2> <br>
             <img class="imgExcursiones" :src="excursion.imagen" :alt="excursion.imagen">
@@ -34,15 +34,15 @@
         </div>
     </div>
 
-      
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./js/excursiones.js"></script>
+
     <footer>
 
     </footer>
 
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <script src="./js/excursiones.js"></script>
     <script src="./js/main.js"></script>
-    
 </body>
 
 </html>
